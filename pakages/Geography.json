@@ -1,0 +1,655 @@
+{
+    "response_code":0,
+    "results":[
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"What is the capital of the American state of Arizona?",
+            "correct_answer":"Phoenix",
+            "incorrect_answers":[
+                "Montgomery",
+                "Phoenix",
+                "Tallahassee",
+                "Raleigh"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"What is the only country in the world with a flag that doesn&#039;t have four right angles?",
+            "correct_answer":"Nepal",
+            "incorrect_answers":[
+                "Panama",
+                "Angola",
+                "Nepal",
+                "Egypt"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"Which of these countries is &quot;doubly landlocked&quot; (surrounded entirely by one or more landlocked countries)?",
+            "correct_answer":"Uzbekistan",
+            "incorrect_answers":[
+                "Uzbekistan",
+                "Switzerland",
+                "Bolivia",
+                "Ethiopia"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"Which of these island countries is located in the Caribbean?",
+            "correct_answer":"Barbados",
+            "incorrect_answers":[
+                "Fiji",
+                "Maldives",
+                "Barbados",
+                "Seychelles"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"What is the capital of Jamaica?",
+            "correct_answer":"Kingston",
+            "incorrect_answers":[
+                "San Juan",
+                "Port-au-Prince",
+                "Bridgetown",
+                "Kingston"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"How many federal states does Germany have?",
+            "correct_answer":"16",
+            "incorrect_answers":[
+                "13",
+                "32",
+                "16",
+                "25"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"What colour is the circle on the Japanese flag?",
+            "correct_answer":"Red",
+            "incorrect_answers":[
+                "Red",
+                "White",
+                "Yellow",
+                "Black"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"Which of the following European languages is classified as a &quot;language isolate?&quot;",
+            "correct_answer":"Basque",
+            "incorrect_answers":[
+                "Galician",
+                "Basque",
+                "Maltese",
+                "Hungarian"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"The derisive acronym &quot;PIIGS&quot; refers to which of the following European countries and their economic statuses?",
+            "correct_answer":"Portugal, Ireland, Italy, Greece, Spain",
+            "incorrect_answers":[
+                "Poland, Iceland, Italy, Greece, Serbia",
+                "Poland, Iceland, Italy, Greenland, Spain",
+                "Portugal, Ireland, Italy, Greece, Spain",
+                "Portugal, Iceland, Ireland, Greece, Serbia"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"What is the only state in the United States that does not have a flag in a shape with 4 edges?",
+            "correct_answer":"Ohio",
+            "incorrect_answers":[
+                "Florida",
+                "Ohio",
+                "Idaho",
+                "New Mexico"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"Which of the following former Yugoslavian states is landlocked?",
+            "correct_answer":"Serbia",
+            "incorrect_answers":[
+                "Bosnia and Herzegovina",
+                "Montenegro",
+                "Serbia",
+                "Croatia"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"All of the following countries have official claims to territory in Antartica EXCEPT:",
+            "correct_answer":"United States",
+            "incorrect_answers":[
+                "United States",
+                "Australia",
+                "Chile",
+                "Norway"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"On which continent is the country of Angola located?",
+            "correct_answer":"Africa",
+            "incorrect_answers":[
+                "South America",
+                "Europe",
+                "Asia",
+                "Africa"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"Which of the following languages does NOT use the Latin alphabet?",
+            "correct_answer":"Georgian",
+            "incorrect_answers":[
+                "Turkish",
+                "Swahili",
+                "Georgian",
+                "Vietnamese"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"Which of these countries is located the FURTHEST away from the South China Sea?",
+            "correct_answer":"Bangladesh",
+            "incorrect_answers":[
+                "Malaysia",
+                "Bangladesh",
+                "Vietnam",
+                "Philippines"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"Gibraltar, located just south of the Iberian peninsula, is a territory of which West Europe country?",
+            "correct_answer":"United Kingdom",
+            "incorrect_answers":[
+                "United Kingdom",
+                "Spain",
+                "Portugal",
+                "France"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"The historical city Timbuktu is located in which West African country?",
+            "correct_answer":"Mali",
+            "incorrect_answers":[
+                "Senegal",
+                "Niger",
+                "Mali",
+                "Burkina Faso"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"What year is on the flag of the US state Wisconsin?",
+            "correct_answer":"1848",
+            "incorrect_answers":[
+                "1634",
+                "1783",
+                "1901",
+                "1848"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"Where are the Nazca Lines located?",
+            "correct_answer":"Peru",
+            "incorrect_answers":[
+                "Brazil",
+                "Colombia",
+                "Peru",
+                "Ecuador"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"What is the capital of Senegal?",
+            "correct_answer":"Dakar",
+            "incorrect_answers":[
+                "Dakar",
+                "Nouakchott",
+                "Conakry",
+                "Monrovia"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"Where is the fast food chain &quot;Panda Express&quot; headquartered?",
+            "correct_answer":"Rosemead, California",
+            "incorrect_answers":[
+                "Rosemead, California",
+                "Sacramento, California",
+                "Fresno, California",
+                "San Diego, California"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"Which of these African countries list &quot;Spanish&quot; as an official language?",
+            "correct_answer":"Equatorial Guinea",
+            "incorrect_answers":[
+                "Guinea",
+                "Equatorial Guinea",
+                "Cameroon",
+                "Angola"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"What is the official language of Bhutan?",
+            "correct_answer":"Dzongkha",
+            "incorrect_answers":[
+                "Ladakhi",
+                "Karen",
+                "Dzongkha",
+                "Groma"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"What is the name of the peninsula containing Spain and Portugal?",
+            "correct_answer":"Iberian Peninsula",
+            "incorrect_answers":[
+                "Iberian Peninsula",
+                "European Peninsula",
+                "Peloponnesian Peninsula",
+                "Scandinavian Peninsula"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"What is the official German name of the Swiss Federal Railways?",
+            "correct_answer":"Schweizerische Bundesbahnen",
+            "incorrect_answers":[
+                "Schweizerische Nationalbahnen",
+                "Bundesbahnen der Schweiz",
+                "Schweizerische Staatsbahnen",
+                "Schweizerische Bundesbahnen"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"What is the capital of Slovakia?",
+            "correct_answer":"Bratislava",
+            "incorrect_answers":[
+                "Sofia",
+                "Ljubljana",
+                "Bratislava",
+                "Sarajevo"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"What is the busiest port in Europe?",
+            "correct_answer":"Port of Rotterdam",
+            "incorrect_answers":[
+                "Port of Rotterdam",
+                "Port of Antwerp",
+                "Port of Hamburg",
+                "Port of Amsterdam"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"What is the name of rocky region that spans most of eastern Canada?",
+            "correct_answer":"Canadian Shield",
+            "incorrect_answers":[
+                "Rocky Mountains",
+                "Appalachian Mountains",
+                "Canadian Shield",
+                "Himalayas"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"What is the tallest mountain in Canada?",
+            "correct_answer":"Mount Logan",
+            "incorrect_answers":[
+                "Mont Tremblant",
+                "Mount Logan",
+                "Whistler Mountain",
+                "Blue Mountain"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"What is the name of the formerly rich fishing grounds off the island of Newfoundland, Canada?",
+            "correct_answer":"Grand Banks",
+            "incorrect_answers":[
+                "Great Barrier Reef",
+                "Mariana Trench",
+                "Grand Banks",
+                "Hudson Bay"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"What is the Polish city known to Germans as Danzig?",
+            "correct_answer":"Gda\u0144sk",
+            "incorrect_answers":[
+                "Gda\u0144sk",
+                "Warsaw",
+                "Zakopane",
+                "Pozna\u0144"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"When does Finland celebrate their independence day?",
+            "correct_answer":"December 6th",
+            "incorrect_answers":[
+                "January 2nd",
+                "November 12th",
+                "February 8th",
+                "December 6th"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"What is the capital of Seychelles?",
+            "correct_answer":"Victoria",
+            "incorrect_answers":[
+                "Luanda",
+                "N&#039;Djamena",
+                "Victoria",
+                "Tripoli"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"What is the capital of Belarus?",
+            "correct_answer":"Minsk",
+            "incorrect_answers":[
+                "Minsk",
+                "Warsaw",
+                "Kiev",
+                "Vilnius"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"What is the capital of India?",
+            "correct_answer":"New Delhi",
+            "incorrect_answers":[
+                "Bejing",
+                "Montreal",
+                "New Delhi",
+                "Tithi"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"Which of these countries is the smallest by population?",
+            "correct_answer":"Norway",
+            "incorrect_answers":[
+                "Norway",
+                "Slovakia",
+                "Finland",
+                "Hong Kong"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"What is the smallest country in the world?",
+            "correct_answer":"Vatican City",
+            "incorrect_answers":[
+                "Maldives",
+                "Monaco",
+                "Malta",
+                "Vatican City"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"What is the highest mountain in the world?",
+            "correct_answer":"Mt. Everest",
+            "incorrect_answers":[
+                "Mount Godwin Austen",
+                "Kangchenjunga",
+                "Mt. Everest",
+                "Annapurna"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"What was the most populous city in the Americas in 2015?",
+            "correct_answer":"S&atilde;o Paulo",
+            "incorrect_answers":[
+                "New York",
+                "S&atilde;o Paulo",
+                "Mexico City",
+                "Los Angeles"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"Which of these cities has a 4&deg; East longitude. ",
+            "correct_answer":"Amsterdam",
+            "incorrect_answers":[
+                "Rio de Janero",
+                "Toronto",
+                "Hong Kong",
+                "Amsterdam"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"The Andaman and Nicobar Islands in South East Asia are controlled by which country?",
+            "correct_answer":"India",
+            "incorrect_answers":[
+                "India",
+                "Vietnam",
+                "Thailand",
+                "Indonesia"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"What is the fifth largest country by area?",
+            "correct_answer":"Brazil",
+            "incorrect_answers":[
+                "Brazil",
+                "United States",
+                "Australia",
+                "India"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"What continent is the country Lesotho in?",
+            "correct_answer":"Africa",
+            "incorrect_answers":[
+                "Asia",
+                "South America",
+                "Africa",
+                "Europe"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"What is the capital of Scotland?",
+            "correct_answer":"Edinburgh",
+            "incorrect_answers":[
+                "Edinburgh",
+                "Glasgow",
+                "Dundee",
+                "London"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"How many rivers are in Saudi Arabia?",
+            "correct_answer":"0",
+            "incorrect_answers":[
+                "1",
+                "2",
+                "0",
+                "3"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"Which is the world&#039;s longest river?",
+            "correct_answer":"Nile",
+            "incorrect_answers":[
+                "Missouri",
+                "Amazon",
+                "Nile",
+                "Yangtze"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"What is the name of the only remaining Grand Duchy in the world ?",
+            "correct_answer":"Luxembourg",
+            "incorrect_answers":[
+                "Luxembourg",
+                "Montenegro",
+                "Liechtenstein",
+                "Andorra"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"How many provinces are in the Netherlands?",
+            "correct_answer":"12",
+            "incorrect_answers":[
+                "14",
+                "12",
+                "10",
+                "13"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"Lake Titicaca is located between which two nations?",
+            "correct_answer":"Peru and Bolivia",
+            "incorrect_answers":[
+                "Kenya and Uganda",
+                "Mexico and the United States",
+                "India and Bangladesh",
+                "Peru and Bolivia"
+            ]
+        },
+        {
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"Which of the following is not a megadiverse country - one that harbors a high number of the earth&#039;s endemic species?",
+            "correct_answer":"Thailand",
+            "incorrect_answers":[
+                "Peru",
+                "Thailand",
+                "Mexico",
+                "South Africa"
+            ]
+        }
+    ]
+}

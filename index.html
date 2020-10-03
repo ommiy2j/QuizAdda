@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontawesome-free-5.13.1-web/css/all.css">
+    <link rel="icon" href="" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <section class="mainSec">
+        <div class="container">
+            <div class="mainNav">
+                <h2 class="header">Quiz World</h2>
+            </div>
+            <div class="footNav"></div>
+            <div class="sideNAv1">
+                <ul>
+                    <li><a href="https://www.facebook.com/ommiy2j" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.facebook.com/ommiy2j" target="_blank"><i class="fab fa-instagram"></i></i></a></li>
+                    <li><a href="https://www.facebook.com/ommiy2j" target="_blank"><i class="fab fa-pinterest"></i></a></li>
+                    <li><a href="https://www.facebook.com/ommiy2j" target="_blank"><i class="fab fa-git"></i></a></li>
+                    <li><a href="https://www.facebook.com/ommiy2j" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://www.facebook.com/ommiy2j" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/ommiy2j" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+            <h2 class="Choose_category">Choose your category</h2>
+            <div class="category">
+                
+                <div class="content General_Knowledge">
+                    <img src="images/General-Knowledge.gif" alt="">
+                    <div class="icon">
+                        <h2>General Knowledge</h2>
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                </div>
+                <div class="content computers">
+                    <img src="images/comp.jpg" alt="">
+                    <div class="icon">
+                        <h2>computers</h2>
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                </div>
+                <div class="content Mathematics">
+                    <img src="images/math.jpg" alt="">
+                    <div class="icon">
+                        <h2>Mathematics</h2>
+                        <i class="fas fa-square-root-alt"></i>
+                    </div>
+                </div>
+                <div class="content Sports">
+                    <img src="images/sports.png" alt="">
+                    <div class="icon">
+                        <h2>Sports</h2>
+                        <i class="fas fa-biking"></i>
+                    </div>
+                </div>
+                <div class="content Movies">
+                    <img src="images/movies.png" alt="">
+                    <div class="icon">
+                        <h2>Movies</h2>
+                        <i class="fas fa-file-video"></i>
+                    </div>
+                </div>
+                <div class="content">
+                    <img src="images/history.jpg" alt="">
+                    <div class="icon">
+                        <h2>History</h2>
+                        <i class="fas fa-anchor"></i>
+                    </div>
+                </div>
+                <div class="content">
+                    <img src="images/geo.jpg" alt="">
+                    <div class="icon">
+                        <h2>Geography</h2>
+                        <i class="fas fa-atlas"></i>
+                    </div>
+                </div>
+                <div class="content">
+                    <img src="images/animals.jpg" alt="">
+                    <div class="icon">
+                        <h2>Animals</h2>
+                        <i class="fas fa-paw"></i>
+                    </div>
+                </div>
+                <div class="content">
+                    <img src="images/sql.png" alt="">
+                    <div class="icon">
+                        <h2>Sql</h2>
+                        <i class="fas fa-database"></i>
+                    </div>
+                </div>
+                <div class="content">
+                    <img src="images/bash.jpg" alt="">
+                    <div class="icon">
+                        <h2>bash</h2>
+                        <i class="fas fa-terminal"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="quesSec">
+        <div class="close">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="title"><h2 class="heading"></h2></div>
+        <!-- <div class="quesContainer">
+            
+            
+            <div class="questions">
+                <span class="q1 active">Question 1</span>
+                <span class="q2">Question 2</span>
+                <span class="q3">Question 3</span>
+                <span class="q4">Question 4</span>
+                <span class="q5">Question 5</span>
+                <span class="q6">Question 6</span>
+                <span class="q7">Question 7</span>
+                <span class="q8">Question 8</span>
+                <span class="q9">Question 9</span>
+                <span class="q10">Question 10</span>
+                <span class="q11">Question 11</span>
+                <span class="q12">Question 12</span>
+                <span class="q13">Question 13</span>
+                <span class="q14">Question 14</span>
+                <span class="q15">Question 15</span>
+                <span class="q16">Question 16</span>
+                <span class="q17">Question 17</span>
+                <span class="q18">Question 18</span>
+                <span class="q19">Question 19</span>
+                <span class="q20">Question 20</span>
+            </div>
+        </div> -->
+        <div class="ques">
+            <div class="showQues"> 
+                 <div class="Q1 Ques activeQues">
+                    <h6 class="divider mt-7 mb-1">Question 1</h6>
+                    <h4 class="lead"><p></p></h4>
+                    <div class="options">
+                        <div id="opt1" class="opt"><h2  id="option1"></h2></div>
+                        <div id="opt2" class="opt"><h2  id="option2"></h2></div>
+                        <div id="opt3" class="opt"><h2  id="option3"></h2></div>
+                        <div id="opt4" class="opt"><h2  id="option4"></h2></div>
+                        
+                        <!-- <input type="radio" id="opt1" name="opt" value="answer_1">
+                        <label for="opt1" id="option1"></label><br>
+                        <input type="radio" id="opt2" name="opt" value="answer_2">
+                        <label for="opt2" id="option2"></label><br>
+                        <input type="radio" id="opt3" name="opt" value="answer_3">
+                        <label for="opt3" id="option3"></label><br>
+                        <input type="radio" id="opt4" name="opt" value="answer_4">
+                        <label for="opt4" id="option4"></label> -->
+                    </div>
+                    <div class="answerDiv"><p> </p></div>
+                    <div class="CorrectAns"><p> </p></div>
+                    
+                </div>
+                </div>
+                
+                <!-- <div class="Q2 Ques" style="display: none;">
+                    <h6 class="divider mt-7 mb-1">Question 1</h6>
+                    <h4 class="lead"><strong>In HTML, what does the &lt;aside&gt; element define?</strong></h4>
+                    <div class="options">
+                        <input type="radio" id="male" name="gender" value="answer_1">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="answer_2">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="answer_3">
+                        <label for="other">Other</label><br>
+                        <input type="radio" id="ans4" name="gender" value="answer_4">
+                        <label for="ans4">Other</label>
+                    </div>
+                    <div class="btns">
+                        <input class="prev" type="button" value="Previous Question">
+                        <input class="next" type="button" value="Next Question">
+                    </div>
+                </div>
+                <div class="Q3 Ques" style="display: none;">
+                    <h6 class="divider mt-7 mb-1">Question 1</h6>
+                    <h4 class="lead"><strong>In HTML, what does the &lt;aside&gt; element define?</strong></h4>
+                    <div class="options">
+                        <input type="radio" id="male" name="gender" value="answer_1">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="answer_2">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="answer_3">
+                        <label for="other">Other</label><br>
+                        <input type="radio" id="ans4" name="gender" value="answer_4">
+                        <label for="ans4">Other</label>
+                    </div>
+                    <div class="btns">
+                        <input class="prev" type="button" value="Previous Question">
+                        <input class="next" type="button" value="Next Question">
+                    </div>
+                </div>
+                <div class="Q4 Ques" style="display: none;">
+                    <h6 class="divider mt-7 mb-1">Question 1</h6>
+                    <h4 class="lead"><strong>In HTML, what does the &lt;aside&gt; element define?</strong></h4>
+                    <div class="options">
+                        <input type="radio" id="male" name="gender" value="answer_1">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="answer_2">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="answer_3">
+                        <label for="other">Other</label><br>
+                        <input type="radio" id="ans4" name="gender" value="answer_4">
+                        <label for="ans4">Other</label>
+                    </div>
+                    <div class="btns">
+                        <input class="prev" type="button" value="Previous Question">
+                        <input class="next" type="button" value="Next Question">
+                    </div>
+                </div>
+                <div class="Q5 Ques" style="display: none;">
+                    <h6 class="divider mt-7 mb-1">Question 1</h6>
+                    <h4 class="lead"><strong>In HTML, what does the &lt;aside&gt; element define?</strong></h4>
+                    <div class="options">
+                        <input type="radio" id="male" name="gender" value="answer_1">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="answer_2">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="answer_3">
+                        <label for="other">Other</label><br>
+                        <input type="radio" id="ans4" name="gender" value="answer_4">
+                        <label for="ans4">Other</label>
+                    </div>
+                    <div class="btns">
+                        <input class="prev" type="button" value="Previous Question">
+                        <input class="next" type="button" value="Next Question">
+                    </div>
+                </div>
+                <div class="Q6 Ques" style="display: none;">
+                    <h6 class="divider mt-7 mb-1">Question 1</h6>
+                    <h4 class="lead"><strong>In HTML, what does the &lt;aside&gt; element define?</strong></h4>
+                    <div class="options">
+                        <input type="radio" id="male" name="gender" value="answer_1">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="answer_2">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="answer_3">
+                        <label for="other">Other</label><br>
+                        <input type="radio" id="ans4" name="gender" value="answer_4">
+                        <label for="ans4">Other</label>
+                    </div>
+                    <div class="btns">
+                        <input class="prev" type="button" value="Previous Question">
+                        <input class="next" type="button" value="Next Question">
+                    </div>
+                </div>
+                <div class="Q7 Ques" style="display: none;">
+                    <h6 class="divider mt-7 mb-1">Question 1</h6>
+                    <h4 class="lead"><strong>In HTML, what does the &lt;aside&gt; element define?</strong></h4>
+                    <div class="options">
+                        <input type="radio" id="male" name="gender" value="answer_1">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="answer_2">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="answer_3">
+                        <label for="other">Other</label><br>
+                        <input type="radio" id="ans4" name="gender" value="answer_4">
+                        <label for="ans4">Other</label>
+                    </div>
+                    <div class="btns">
+                        <input class="prev" type="button" value="Previous Question">
+                        <input class="next" type="button" value="Next Question">
+                    </div>
+                </div>
+                <div class="Q8 Ques" style="display: none;">
+                    <h6 class="divider mt-7 mb-1">Question 1</h6>
+                    <h4 class="lead"><strong>In HTML, what does the &lt;aside&gt; element define?</strong></h4>
+                    <div class="options">
+                        <input type="radio" id="male" name="gender" value="answer_1">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="answer_2">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="answer_3">
+                        <label for="other">Other</label><br>
+                        <input type="radio" id="ans4" name="gender" value="answer_4">
+                        <label for="ans4">Other</label>
+                    </div>
+                    <div class="btns">
+                        <input class="prev" type="button" value="Previous Question">
+                        <input class="next" type="button" value="Next Question">
+                    </div>
+                </div>
+                <div class="Q9 Ques" style="display: none;">
+                    <h6 class="divider mt-7 mb-1">Question 1</h6>
+                    <h4 class="lead"><strong>In HTML, what does the &lt;aside&gt; element define?</strong></h4>
+                    <div class="options">
+                        <input type="radio" id="male" name="gender" value="answer_1">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="answer_2">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="answer_3">
+                        <label for="other">Other</label><br>
+                        <input type="radio" id="ans4" name="gender" value="answer_4">
+                        <label for="ans4">Other</label>
+                    </div>
+                    <div class="btns">
+                        <input class="prev" type="button" value="Previous Question">
+                        <input class="next" type="button" value="Next Question">
+                    </div>
+                </div>
+                <div class="Q10 Ques" style="display: none;">
+                    <h6 class="divider mt-7 mb-1">Question 1</h6>
+                    <h4 class="lead"><strong>In HTML, what does the &lt;aside&gt; element define?</strong></h4>
+                    <div class="options">
+                        <input type="radio" id="male" name="gender" value="answer_1">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="answer_2">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="answer_3">
+                        <label for="other">Other</label><br>
+                        <input type="radio" id="ans4" name="gender" value="answer_4">
+                        <label for="ans4">Other</label>
+                    </div>
+                    <div class="btns">
+                        <input class="prev" type="button" value="Previous Question">
+                        <input class="next" type="button" value="Next Question">
+                    </div>
+                </div>
+                <div class="Q11 Ques" style="display: none;">
+                    <h6 class="divider mt-7 mb-1">Question 1</h6>
+                    <h4 class="lead"><strong>In HTML, what does the &lt;aside&gt; element define?</strong></h4>
+                    <div class="options">
+                        <input type="radio" id="male" name="gender" value="answer_1">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="answer_2">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="answer_3">
+                        <label for="other">Other</label><br>
+                        <input type="radio" id="ans4" name="gender" value="answer_4">
+                        <label for="ans4">Other</label>
+                    </div>
+                    <div class="btns">
+                        <input class="prev" type="button" value="Previous Question">
+                        <input class="next" type="button" value="Next Question">
+                    </div>
+                </div>
+                <div class="Q12 Ques" style="display: none;">
+                    <h6 class="divider mt-7 mb-1">Question 1</h6>
+                    <h4 class="lead"><strong>In HTML, what does the &lt;aside&gt; element define?</strong></h4>
+                    <div class="options">
+                        <input type="radio" id="male" name="gender" value="answer_1">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="answer_2">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="answer_3">
+                        <label for="other">Other</label><br>
+                        <input type="radio" id="ans4" name="gender" value="answer_4">
+                        <label for="ans4">Other</label>
+                    </div>
+                    <div class="btns">
+                        <input class="prev" type="button" value="Previous Question">
+                        <input class="next" type="button" value="Next Question">
+                    </div>
+                </div>
+                <div class="Q13 Ques" style="display: none;">
+                    <h6 class="divider mt-7 mb-1">Question 1</h6>
+                    <h4 class="lead"><strong>In HTML, what does the &lt;aside&gt; element define?</strong></h4>
+                    <div class="options">
+                        <input type="radio" id="male" name="gender" value="answer_1">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="answer_2">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="answer_3">
+                        <label for="other">Other</label><br>
+                        <input type="radio" id="ans4" name="gender" value="answer_4">
+                        <label for="ans4">Other</label>
+                    </div>
+                    <div class="btns">
+                        <input class="prev" type="button" value="Previous Question">
+                        <input class="next" type="button" value="Next Question">
+                    </div>
+                </div>
+                <div class="Q14 Ques" style="display: none;">
+                    <h6 class="divider mt-7 mb-1">Question 1</h6>
+                    <h4 class="lead"><strong>In HTML, what does the &lt;aside&gt; element define?</strong></h4>
+                    <div class="options">
+                        <input type="radio" id="male" name="gender" value="answer_1">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="answer_2">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="answer_3">
+                        <label for="other">Other</label><br>
+                        <input type="radio" id="ans4" name="gender" value="answer_4">
+                        <label for="ans4">Other</label>
+                    </div>
+                    <div class="btns">
+                        <input class="prev" type="button" value="Previous Question">
+                        <input class="next" type="button" value="Next Question">
+                    </div>
+                </div>
+                <div class="Q15 Ques" style="display: none;">
+                    <h6 class="divider mt-7 mb-1">Question 1</h6>
+                    <h4 class="lead"><strong>In HTML, what does the &lt;aside&gt; element define?</strong></h4>
+                    <div class="options">
+                        <input type="radio" id="male" name="gender" value="answer_1">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="answer_2">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="answer_3">
+                        <label for="other">Other</label><br>
+                        <input type="radio" id="ans4" name="gender" value="answer_4">
+                        <label for="ans4">Other</label>
+                    </div>
+                    <div class="btns">
+                        <input class="prev" type="button" value="Previous Question">
+                        <input class="next" type="button" value="Next Question">
+                    </div>
+                </div>
+                <div class="Q16 Ques" style="display: none;">
+                    <h6 class="divider mt-7 mb-1">Question 1</h6>
+                    <h4 class="lead"><strong>In HTML, what does the &lt;aside&gt; element define?</strong></h4>
+                    <div class="options">
+                        <input type="radio" id="male" name="gender" value="answer_1">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="answer_2">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="answer_3">
+                        <label for="other">Other</label><br>
+                        <input type="radio" id="ans4" name="gender" value="answer_4">
+                        <label for="ans4">Other</label>
+                    </div>
+                    <div class="btns">
+                        <input class="prev" type="button" value="Previous Question">
+                        <input class="next" type="button" value="Next Question">
+                    </div>
+                </div>
+                <div class="Q17 Ques" style="display: none;">
+                    <h6 class="divider mt-7 mb-1">Question 1</h6>
+                    <h4 class="lead"><strong>In HTML, what does the &lt;aside&gt; element define?</strong></h4>
+                    <div class="options">
+                        <input type="radio" id="male" name="gender" value="answer_1">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="answer_2">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="answer_3">
+                        <label for="other">Other</label><br>
+                        <input type="radio" id="ans4" name="gender" value="answer_4">
+                        <label for="ans4">Other</label>
+                    </div>
+                    <div class="btns">
+                        <input class="prev" type="button" value="Previous Question">
+                        <input class="next" type="button" value="Next Question">
+                    </div>
+                </div>
+                <div class="Q18 Ques" style="display: none;">
+                    <h6 class="divider mt-7 mb-1">Question 1</h6>
+                    <h4 class="lead"><strong>In HTML, what does the &lt;aside&gt; element define?</strong></h4>
+                    <div class="options">
+                        <input type="radio" id="male" name="gender" value="answer_1">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="answer_2">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="answer_3">
+                        <label for="other">Other</label><br>
+                        <input type="radio" id="ans4" name="gender" value="answer_4">
+                        <label for="ans4">Other</label>
+                    </div>
+                    <div class="btns">
+                        <input class="prev" type="button" value="Previous Question">
+                        <input class="next" type="button" value="Next Question">
+                    </div>
+                </div>
+                <div class="Q19 Ques" style="display: none;">
+                    <h6 class="divider mt-7 mb-1">Question 1</h6>
+                    <h4 class="lead"><strong>In HTML, what does the &lt;aside&gt; element define?</strong></h4>
+                    <div class="options">
+                        <input type="radio" id="male" name="gender" value="answer_1">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="answer_2">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="answer_3">
+                        <label for="other">Other</label><br>
+                        <input type="radio" id="ans4" name="gender" value="answer_4">
+                        <label for="ans4">Other</label>
+                    </div>
+                    <div class="btns">
+                        <input class="prev" type="button" value="Previous Question">
+                        <input class="next" type="button" value="Next Question">
+                    </div>
+                </div>
+                <div class="Q20 Ques" style="display: none;">
+                    <h6 class="divider mt-7 mb-1">Question 1</h6>
+                    <h4 class="lead"><strong>In HTML, what does the &lt;aside&gt; element define?</strong></h4>
+                    <div class="options">
+                        <input type="radio" id="male" name="gender" value="answer_1">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="answer_2">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="answer_3">
+                        <label for="other">Other</label><br>
+                        <input type="radio" id="ans4" name="gender" value="answer_4">
+                        <label for="ans4">Other</label>
+                    </div>
+                    <div class="btns">
+                        <input class="prev" type="button" value="Previous Question">
+                    </div>
+                </div>
+            </div> -->
+       
+            <div class="btns">
+                <input class="next" type="button" onclick="increment()" value="Next Question">
+                
+            </div>
+        </div>
+        
+    </section>
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script src="js/index.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

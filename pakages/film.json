@@ -1,0 +1,637 @@
+{
+    "response_code":0,
+    "results":[
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"Daniel Radcliffe became a global star in the film industry due to his performance in which film franchise?",
+            "correct_answer":"Harry Potter",
+            "incorrect_answers":[
+                "Ted",
+                "Spy Kids",
+                "Harry Potter",
+                "Pirates of the Caribbean "
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"What name did Tom Hanks give to his volleyball companion in the film `Cast Away`?",
+            "correct_answer":"Wilson",
+            "incorrect_answers":[
+                "Friday",
+                "Jones",
+                "Billy",
+                "Wilson"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"boolean",
+            "difficulty":"easy",
+            "question":"Han Solo&#039;s co-pilot and best friend, &quot;Chewbacca&quot;, is an Ewok.",
+            "correct_answer":"False",
+            "incorrect_answers":[
+                "True",
+                "False"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"boolean",
+            "difficulty":"easy",
+            "question":"The movie &quot;The Nightmare before Christmas&quot; was all done with physical objects.",
+            "correct_answer":"True",
+            "incorrect_answers":[
+                "True",
+                "False"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"boolean",
+            "difficulty":"easy",
+            "question":"Leonardo DiCaprio won an Oscar for Best Actor in 2004&#039;s &quot;The Aviator&quot;.",
+            "correct_answer":"False",
+            "incorrect_answers":[
+                "True",
+                "False"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"Who directed the movies &quot;Pulp Fiction&quot;, &quot;Reservoir Dogs&quot; and &quot;Django Unchained&quot;?",
+            "correct_answer":"Quentin Tarantino",
+            "incorrect_answers":[
+                "Martin Scorcese",
+                "Steven Spielberg",
+                "Quentin Tarantino",
+                "James Cameron"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"boolean",
+            "difficulty":"easy",
+            "question":"Matt Damon played an astronaut stranded on an extraterrestrial planet in both of the movies Interstellar and The Martian.",
+            "correct_answer":"True",
+            "incorrect_answers":[
+                "True",
+                "False"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"What was the title of the first Bond movie, released in 1962?",
+            "correct_answer":"Dr. No",
+            "incorrect_answers":[
+                "From Russia with Love",
+                "Dr. No",
+                "Goldfinger",
+                "Thunderball"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"Who played Batman in the 1997 film &quot;Batman and Robin&quot;?",
+            "correct_answer":"George Clooney",
+            "incorrect_answers":[
+                "Michael Keaton",
+                "Val Kilmer",
+                "Christian Bale",
+                "George Clooney"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"This movie contains the quote, &quot;I feel the need ... the need for speed!&quot;",
+            "correct_answer":"Top Gun",
+            "incorrect_answers":[
+                "Days of Thunder",
+                "The Color of Money",
+                "Top Gun",
+                "Cocktail"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"This movie contains the quote, &quot;What we&#039;ve got here is a failure to communicate.&quot;",
+            "correct_answer":"Cool Hand Luke",
+            "incorrect_answers":[
+                "Bonnie and Clyde",
+                "The Graduate",
+                "In the Heat of the Night",
+                "Cool Hand Luke"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"In which African country was the 2006 film &#039;Blood Diamond&#039; mostly set in?",
+            "correct_answer":"Sierra Leone",
+            "incorrect_answers":[
+                "Sierra Leone",
+                "Liberia",
+                "Burkina Faso",
+                "Central African Republic"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"boolean",
+            "difficulty":"easy",
+            "question":"The 2010 film &quot;The Social Network&quot; is a biographical drama film about MySpace founder Tom Anderson.",
+            "correct_answer":"False",
+            "incorrect_answers":[
+                "True",
+                "False"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"What was the name of the planet in &quot;Aliens&quot;?",
+            "correct_answer":"LV-426",
+            "incorrect_answers":[
+                "Weyland Yutani Corporation Base",
+                "FR-838",
+                "LV-426",
+                "DI-621"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"boolean",
+            "difficulty":"easy",
+            "question":"Shaquille O&#039;Neal appeared in the 1997 film &quot;Space Jam&quot;.",
+            "correct_answer":"False",
+            "incorrect_answers":[
+                "True",
+                "False"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"What is the oldest Disney film?",
+            "correct_answer":"Snow White and the Seven Dwarfs",
+            "incorrect_answers":[
+                "Snow White and the Seven Dwarfs",
+                "Pinocchio",
+                "Dumbo",
+                "Fantasia"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"Which one of these films are shot entirely in one-take?",
+            "correct_answer":"Russian Ark",
+            "incorrect_answers":[
+                "Good Will Hunting",
+                "Birdman",
+                "Russian Ark",
+                "Schindler&#039;s List"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"What is the correct phrase for the Latin saying &quot;Romanes Eunt Domus&quot; in Monty Python&#039;s Life of Brian?",
+            "correct_answer":"Romani Ite Domum",
+            "incorrect_answers":[
+                "Romans Go Home",
+                "Romani Ite Domum",
+                "Roxani Ite Domum",
+                "Tomate Ite Domum"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"Which actor plays Obi-Wan Kenobi in Star Wars Episodes I-lll?",
+            "correct_answer":"Ewan McGregor",
+            "incorrect_answers":[
+                "Alec Guinness",
+                "Ewan McGregor",
+                "Hayden Christensen",
+                "Liam Neeson"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"The 2002 film &quot;28 Days Later&quot; is mainly set in which European country?",
+            "correct_answer":"United Kingdom",
+            "incorrect_answers":[
+                "France",
+                "United Kingdom",
+                "Italy",
+                "Germany"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"In the movie &quot;Spaceballs&quot;, what are the Spaceballs attempting to steal from Planet Druidia?",
+            "correct_answer":"Air",
+            "incorrect_answers":[
+                "The Schwartz",
+                "Princess Lonestar",
+                "Meatballs",
+                "Air"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"In Back to the Future Part II, Marty and Dr. Emmett Brown go to which future date?",
+            "correct_answer":"October 21, 2015",
+            "incorrect_answers":[
+                "August 28, 2015",
+                "October 21, 2015",
+                "July 20, 2015",
+                "January 25, 2015"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"boolean",
+            "difficulty":"easy",
+            "question":"In the movie The Revenant, DiCaprio&#039;s character hunts down the killer of his son.",
+            "correct_answer":"True",
+            "incorrect_answers":[
+                "True",
+                "False"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"What was the name of the actor who played Leatherface in the 1974 horror film, The Texas Chainsaw Massacre?",
+            "correct_answer":"Gunnar Hansen",
+            "incorrect_answers":[
+                "Edwin Neal",
+                "John Dugan",
+                "Joe Bill Hogan",
+                "Gunnar Hansen"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"boolean",
+            "difficulty":"easy",
+            "question":"Brandon Routh plays the titular character in the movie &quot;John Wick&quot;.",
+            "correct_answer":"False",
+            "incorrect_answers":[
+                "True",
+                "False"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"Who voiced Metalbeard in &quot;The Lego Movie&quot;?",
+            "correct_answer":"Nick Offerman",
+            "incorrect_answers":[
+                "Nick Offerman",
+                "Liam Neeson",
+                "Morgan Freeman",
+                "Will Arnet"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"In the 2012 film, &quot;The Lorax&quot;, who is the antagonist?",
+            "correct_answer":"Aloysius O&#039;Hare",
+            "incorrect_answers":[
+                "Ted Wiggins",
+                "The Once-Ler",
+                "Aloysius O&#039;Hare",
+                "Grammy Norma"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"At the end of the 2001 film &quot;Rat Race&quot;, whose concert do the contestants crash?",
+            "correct_answer":"Smash Mouth",
+            "incorrect_answers":[
+                "Smash Mouth",
+                "Bowling for Soup",
+                "Sum 41",
+                "Linkin Park"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"Who plays the character of Po in the Kung Fu Panda movies?",
+            "correct_answer":"Jack Black",
+            "incorrect_answers":[
+                "Mirana Jonnes",
+                "McConahey Ramses",
+                "Jack Black",
+                "Jim Petersson"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"Who is the director of the 1991 film &quot;Silence of the Lambs&quot;?",
+            "correct_answer":"Jonathan Demme",
+            "incorrect_answers":[
+                "Stanley Kubrick",
+                "Frank Darabont",
+                "Michael Bay",
+                "Jonathan Demme"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"In order to cut costs, what were most of the extras of Mad Max (1979) paid with?",
+            "correct_answer":"Beer",
+            "incorrect_answers":[
+                "Fast food",
+                "Beer",
+                "Food stamps",
+                "They weren&#039;t paid"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"According to &quot;Star Wars&quot; lore, which planet does Obi-Wan Kenobi come from?",
+            "correct_answer":"Stewjon",
+            "incorrect_answers":[
+                "Alderaan",
+                "Tatooine",
+                "Stewjon",
+                "Naboo"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"In the &quot;Jurassic Park&quot; universe, what is the name of the island that contains InGen&#039;s Site B?",
+            "correct_answer":"Isla Sorna",
+            "incorrect_answers":[
+                "Isla Sorna",
+                "Isla Nublar",
+                "Isla Pena",
+                "Isla Muerta"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"In what year does Jurassic World open in the &quot;Jurassic Park&quot; universe?",
+            "correct_answer":"2005",
+            "incorrect_answers":[
+                "2007",
+                "2005",
+                "2015",
+                "2020"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"What was Bruce Campbell&#039;s iconic one-liner after getting a chainsaw hand in Evil Dead 2?",
+            "correct_answer":"Groovy.",
+            "incorrect_answers":[
+                "Groovy.",
+                "Gnarly.",
+                "Perfect.",
+                "Nice."
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"Which former Star Trek actor directed Three Men and a Baby (1987)?",
+            "correct_answer":"Leonard Nimoy",
+            "incorrect_answers":[
+                "William Shatner",
+                "George Takei",
+                "Leonard Nimoy",
+                "James Doohan"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"Which of the following films was directed by Ivan Reitman, written by Gary Ross, featured Kevin Kline, and was released in 1993?",
+            "correct_answer":"Dave",
+            "incorrect_answers":[
+                "John",
+                "Will",
+                "Carl",
+                "Dave"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"What is Lilo&#039;s last name from Lilo and Stitch?",
+            "correct_answer":"Pelekai",
+            "incorrect_answers":[
+                "Anoa\u02bbi",
+                "Pelekai",
+                "Kealoha",
+                "Ku\u02bbulei"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"In Big Hero 6, what were Baymax&#039;s motions modeled after?",
+            "correct_answer":"Baby penguins",
+            "incorrect_answers":[
+                "Baby monkeys",
+                "Baby ostriches",
+                "Baby bears",
+                "Baby penguins"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"In Big Hero 6, what fictional city is the Big Hero 6 from?",
+            "correct_answer":"San Fransokyo",
+            "incorrect_answers":[
+                "San Tokyo",
+                "Tokysisco",
+                "San Fransokyo",
+                "Sankyo"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"In the Friday The 13th series, what is Jason&#039;s mother&#039;s first name?",
+            "correct_answer":"Pamela",
+            "incorrect_answers":[
+                "Pamela",
+                "Mary",
+                "Christine",
+                "Angeline"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"What film did James Cameron&#039;s Avatar dethrone as the highest-grossing film ever?",
+            "correct_answer":"Titanic",
+            "incorrect_answers":[
+                "Star Wars",
+                "Gone with the Wind",
+                "Jaws",
+                "Titanic"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"Which of these Disney classics was released in 1970?",
+            "correct_answer":"The Aristocats",
+            "incorrect_answers":[
+                "One Hundred and One Dalmatians",
+                "The Aristocats",
+                "The Fox and the Hound",
+                "The Little Mermaid"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"Which 90&#039;s comedy cult classic features cameos appearances from Meat Loaf, Alice Cooper and Chris Farley?",
+            "correct_answer":"Wayne&#039;s World",
+            "incorrect_answers":[
+                "Bill &amp; Ted&#039;s Excellent Adventure",
+                "Dumb and Dumber",
+                "Wayne&#039;s World",
+                "Austin Powers: International Man of Mystery"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"easy",
+            "question":"What is the name of the fictional retro-mod band starring Austin Powers as the lead vocalist?",
+            "correct_answer":"Ming Tea",
+            "incorrect_answers":[
+                "Ming Tea",
+                "Cough Fi",
+                "Spear Mint",
+                "Mister E"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"In the film &quot;Harry Potter and the Order of The Phoenix&quot;, why was Harry Potter&#039;s scream, after Sirius Black died, muted?",
+            "correct_answer":"Too Agonizing",
+            "incorrect_answers":[
+                "Too Loud",
+                "Too Agonizing",
+                "Too Harsh",
+                "Too Violent"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"Brendan Fraser starred in the following movies, except which one?",
+            "correct_answer":"Titanic",
+            "incorrect_answers":[
+                "Monkeybone",
+                "Encino Man",
+                "Mrs. Winterbourne",
+                "Titanic"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"Who did the score to the original Blade Runner?",
+            "correct_answer":"Vangelis",
+            "incorrect_answers":[
+                "Kitaro",
+                "Vangelis",
+                "Yanni",
+                "Enya"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"After India, which country produces the second most movies per year?",
+            "correct_answer":"Nigeria",
+            "incorrect_answers":[
+                "Nigeria",
+                "United States",
+                "China",
+                "France"
+            ]
+        },
+        {
+            "category":"Entertainment: Film",
+            "type":"boolean",
+            "difficulty":"medium",
+            "question":"The original ending of &quot;Little Shop Of Horrors&quot; has the plants taking over the world.",
+            "correct_answer":"True",
+            "incorrect_answers":[
+                "True",
+                "False"
+            ]
+        }
+    ]
+}
