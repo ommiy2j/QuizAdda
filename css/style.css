@@ -184,8 +184,12 @@
 }
 .heading{
     margin: 50px auto;
-    font-size: 3rem;
-    color: rgb(6, 21, 240);
+    font-size: 2.9rem;
+    font-weight: 600;
+    color:#841B2D;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1.5px;
+    word-spacing: 8px;
 }
 .quesContainer{
     width: 80%;
@@ -256,7 +260,9 @@
     width: 100%;
     
 }
-
+.divider span{
+    padding-left: 10px;
+}
 .divider::before{
     margin-right: 1rem;
 }
@@ -292,10 +298,11 @@ label{
     
 }
 .lead p{
-    font-size: 1.5rem;
-    font-weight: 800;
+    font-size: 1rem;
+    font-weight: 600;
     margin-left: 15px;
     color: #3b0101;
+    font-family: cursive;
 }
 #opt1,#opt2,#opt3,#opt4,.original{
     display: flex;

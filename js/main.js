@@ -4,6 +4,9 @@ const next=document.querySelector('.next');
 const heading = document.querySelector('.heading');
 const displayQues =document.querySelector('.ques');
 const close = document.querySelector('.close');
+const answerDiv =document.querySelector('.answerDiv p');
+const CorrectAns =document.querySelector('.CorrectAns p');
+const divider=document.querySelector('.divider span');
 console.log(next)
 
 
@@ -15,6 +18,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     //for Close Button
     close.addEventListener('click',()=>{
         quesSec.classList.toggle('showQuesSec');
+        CorrectAns.innerHTML='';
     })
     
 
@@ -31,49 +35,49 @@ document.addEventListener('DOMContentLoaded',()=>{
                 var x=0;
                 var q=fetchUncategorised(x);
                 dispalyQuesSection('General Knowledge',q);
-                DisabledOptions()
-                checkAnswer(q)
+                DisabledOptionsForNEwTab()
+                checkAnswer(q,x)
             }
             else if(category=='computers'){
                 var x=0;
                 var q=fetchComputers(x);
                 dispalyQuesSection('computers',q);
-                DisabledOptions()
+                DisabledOptionsForNEwTab()
                 checkAnswer(q)
             }
             else if(category=='Sports'){
                 var x=0;
                 var q=fetchSports(x);
                 dispalyQuesSection('Sports',q);
-                DisabledOptions()
+                DisabledOptionsForNEwTab()
                 checkAnswer(q)
             }
             else if(category=='Mathematics'){
                 var x=0;
                 var q=fetchMathematics(x);
                 dispalyQuesSection('Mathematics',q);
-                DisabledOptions()
+                DisabledOptionsForNEwTab()
                 checkAnswer(q)
             }
             else if(category=='Movies'){
                 var x=0;
                 var q=fetchMovies(x);
                 dispalyQuesSection('Movies',q);
-                DisabledOptions()
+                DisabledOptionsForNEwTab()
                 checkAnswer(q)
             }
             else if(category=='History'){
                 var x=0;
                 var q=fetchHistory(x);
                 dispalyQuesSection('History',q);
-                DisabledOptions()
+                DisabledOptionsForNEwTab()
                 checkAnswer(q)
             }
             else if(category=='Geography'){
                 var x=0;
                 var q=fetchGeography(x);
                 dispalyQuesSection('Geography',q);
-                DisabledOptions()
+                DisabledOptionsForNEwTab()
                 checkAnswer(q)
             }
             else if(category=='Animals'){
@@ -84,13 +88,13 @@ document.addEventListener('DOMContentLoaded',()=>{
                 }
                 
                 dispalyQuesSection('Animals',q);
-                DisabledOptions()
+                DisabledOptionsForNEwTab()
             }
             else if(category=='computers'){
                 var x=0;
                 var q=fetchComputers(x);
                 dispalyQuesSection('computers',q);
-                DisabledOptions()
+                DisabledOptionsForNEwTab()
                 checkAnswer(q)
             }
     
@@ -169,22 +173,18 @@ document.addEventListener('DOMContentLoaded',()=>{
                         console.log(category)
                 }
             }
-        })   
-    }
-    var c=0;
-    const answerDiv =document.querySelector('.answerDiv p');
-    const CorrectAns =document.querySelector('.CorrectAns p');
 
-    function checkAnswer(q){
-        
+
+
+        var cn=0;
+        function checkAnswer(q){
         q.then((p)=>{
             var ans = p.ans;
-            
             const opt =document.querySelectorAll('.opt');
             for(let i=0;i<opt.length;i++){
                 opt[i].addEventListener('click',()=>{
-                    if(event.target.children[0].innerHTML===ans){
-                        c+=1;
+                    if(event.target.innerHTML===ans){
+                        cn+=1;
                         console.log("Correct Ans");
                         event.target.style.background="rgb(5, 236, 63)";
                         for(let j=0;j<4;j++){
@@ -195,7 +195,7 @@ document.addEventListener('DOMContentLoaded',()=>{
                         }
                         
                         answerDiv.innerHTML="Answer Is :- "+ ans;
-                        CorrectAns.innerHTML='Correct Answers : '+c+'/50';
+                        CorrectAns.innerHTML='Correct Answers : '+cn+'/50';
                     }
                     else{
                         event.target.style.background="rgb(240, 84, 84)";
@@ -221,9 +221,24 @@ document.addEventListener('DOMContentLoaded',()=>{
             opt[i].style.background='rgba(126, 171, 179, 0.15)';
             opt[i].style.pointerEvents = 'auto';
             answerDiv.innerHTML="";
-        }
+            }
     
-    }
+        }
+    function DisabledOptionsForNEwTab(){
+        const opt = document.querySelectorAll('.opt');
+        for(let i=0;i<opt.length;i++){
+            opt[i].style.background='rgba(126, 171, 179, 0.15)';
+            opt[i].style.pointerEvents = 'auto';
+            answerDiv.innerHTML="";
+            CorrectAns.innerHTML='';
+            }
+    
+        }  
+    }) 
+    
+}
+
+    
     
     
     
@@ -415,12 +430,12 @@ document.addEventListener('DOMContentLoaded',()=>{
     
     
     
-    const divider=document.querySelector('.divider');
+    
     const lead=document.querySelector('.lead p');
-    const option1 =document.querySelector('#option1');
-    const option2 =document.querySelector('#option2');
-    const option3 =document.querySelector('#option3');
-    const option4 =document.querySelector('#option4');
+    const option1 =document.querySelector('.option1');
+    const option2 =document.querySelector('.option2');
+    const option3 =document.querySelector('.option3');
+    const option4 =document.querySelector('.option4');
     const Ropt1 =document.querySelector('#opt1');
     const Ropt2 =document.querySelector('#opt2');
     const Ropt3 =document.querySelector('#opt3');
@@ -436,7 +451,7 @@ document.addEventListener('DOMContentLoaded',()=>{
             var opt3=p.opt3;
             var opt4=p.opt4;
             var qno=c+1;
-            divider.innerHTML="Question "+qno;
+            divider.innerHTML=qno;
             lead.innerHTML=ques;
             option1.innerHTML=opt1;
             Ropt1.value=opt1;
