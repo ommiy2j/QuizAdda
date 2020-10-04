@@ -7,7 +7,7 @@ const close = document.querySelector('.close');
 const answerDiv =document.querySelector('.answerDiv p');
 const CorrectAns =document.querySelector('.CorrectAns p');
 const divider=document.querySelector('.divider span');
-console.log(next)
+const timer = document.querySelector('.timer');
 
 
 
@@ -97,10 +97,29 @@ document.addEventListener('DOMContentLoaded',()=>{
                 DisabledOptionsForNEwTab()
                 checkAnswer(q)
             }
+            else if(category=='Cricket'){
+                var x=0;
+                var q=fetchCricket(x);
+                dispalyQuesSection('Cricket',q);
+                DisabledOptionsForNEwTab()
+                checkAnswer(q)
+            }
     
+            var countDownDate = new Date().getTime() + 30 * 60 * 1000;
+            var x = setInterval(function() {
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            document.querySelector('.timer').innerHTML =  hours + ":"
+            + minutes + ":" + seconds;
+            if (distance < 0) {
+                clearInterval(x);
+                document.querySelector('.timer').innerHTML = "EXPIRED";
+            }
+            }, 1000);
             
-    
-    
     
     
     
@@ -172,6 +191,17 @@ document.addEventListener('DOMContentLoaded',()=>{
                         DisabledOptions();
                         console.log(category)
                 }
+                else if(c<50 && category=='Cricket'){
+                        var q=fetchCricket(count);
+                        dispalyQuesSection("Animals",q,count,c);
+                        checkAnswer(q)
+                        DisabledOptions();
+                        console.log(category)
+                }
+                
+                   
+                
+                
             }
 
 
@@ -210,9 +240,7 @@ document.addEventListener('DOMContentLoaded',()=>{
             }
     
         })
-    
-        
-    
+
     }
     
     function DisabledOptions(){
@@ -234,12 +262,9 @@ document.addEventListener('DOMContentLoaded',()=>{
             }
     
         }  
-    }) 
-    
+    })    
 }
 
-    
-    
     
     
     
@@ -259,7 +284,7 @@ document.addEventListener('DOMContentLoaded',()=>{
             let answer =data.results[x]
             const ans =data.results[x].correct_answer;
             const [opt1,opt2,opt3,opt4]=data.results[x].incorrect_answers;
-            console.log({question,ans,opt1,opt2,opt3})
+            // console.log({question,ans,opt1,opt2,opt3})
             return {question,ans,opt1,opt2,opt3,opt4}
         }
         catch(error){
@@ -424,6 +449,23 @@ document.addEventListener('DOMContentLoaded',()=>{
         }
     
     }
+    async function fetchCricket(x){
+        try{
+            var genralData=await fetch('pakages/cricket.json');
+            let data=await genralData.json();
+            let ques=data.results;
+            let question =data.results[x].question;
+            let answer =data.results[x]
+            const ans =data.results[x].correct_answer;
+            const [opt1,opt2,opt3,opt4]=data.results[x].incorrect_answers;
+            console.log({question,ans,opt1,opt2,opt3,opt4})
+            return {question,ans,opt1,opt2,opt3,opt4}
+        }
+        catch(error){
+            console.log(error)
+        }
+    
+    }
     
     
     
@@ -461,35 +503,18 @@ document.addEventListener('DOMContentLoaded',()=>{
             option2.innerHTML=opt2;
             option3.innerHTML=opt3;
             option4.innerHTML=opt4;
-            console.log(Ropt1,Ropt2,Ropt3,Ropt4)
+            // console.log(Ropt1,Ropt2,Ropt3,Ropt4)
     
     
-    
-            // console.log(showQues.children[0])
-    
-    
-    
-    
-            // var count = 0;
-            // next.onclick = function(){
-            //     count++;
-            //     if(count<50){
-            //         var q=fetchUncategorised(count);
-            //         
-            //         dispalyQuesSection(count,q)
-            //         
-            //     }
-            //   }
             }
     
             
         )
     }
     
-    
-    var incNo=0;
-    var i=0; 
-    console.log(heading)
+
+
+
 })
 
 
