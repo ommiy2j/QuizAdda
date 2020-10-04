@@ -326,12 +326,17 @@ label{
     background:  rgba(126, 171, 179, 1);
     color: black;
 }
-.answerDiv{
+.answerDiv {
     position: absolute;
-    bottom: 4%;
-    left: 3%;
-    min-width: 30%;
+    bottom: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* min-width: 300px; */
     min-height: 30px;
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .answerDiv p{
     background:  rgb(114, 238, 180);
