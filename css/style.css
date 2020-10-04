@@ -330,7 +330,7 @@ label{
     position: absolute;
     bottom: 4%;
     left: 3%;
-    min-width: 300px;
+    min-width: 30%;
     min-height: 30px;
 }
 .answerDiv p{
@@ -353,7 +353,7 @@ label{
     position: absolute;
     bottom: 4%;
     left: 50%;
-    min-width: 300px;
+    min-width: 30%;
     height: 30px;
     transform: translateX(-50%);
     color: rgb(10, 1, 1);
