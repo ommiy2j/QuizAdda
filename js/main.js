@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     for(let i=0;i<content.length;i++){
         // console.log(content[i]);
         content[i].addEventListener('click',()=>{
+            window.scrollTo(0, 0);
             quesSec.classList.toggle('showQuesSec');
             var category=content[i].children[1].children[0].innerHTML;
             // console.log(category);
