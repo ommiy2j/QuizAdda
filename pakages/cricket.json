@@ -8,42 +8,42 @@
                 "The ICC is the global governing body for cricket.",
                 "ICC is also responsible for the staging of all ICC Events.",
                 "The ICC also appoints all match officials that officiate at all sanctioned international matches.",
-                " ICC has 53 members"
+                "ICC has 53 members"
             ]
         },
         {
             "question":"Which countries are the latest full time members of the ICC? ",
-            "correct_answer":"Afghanistan and Ireland ",
+            "correct_answer":"Afghanistan and Ireland",
             "incorrect_answers":[
                 "Trinidad & Tobago and Burundi",
-                " Afghanistan and Ireland",
-                " Bangladesh and Nepal ",
-                " None of the above"
+                "Afghanistan and Ireland",
+                "Bangladesh and Nepal ",
+                "None of the above"
             ]
         },
         {
             "question":" Which of the following is the oldest test cricket playing country in the world?",
             "correct_answer":"Australia",
             "incorrect_answers":[
-                " Australia",
-                " India",
-                " West Indies",
-                " South Africa"
+                "Australia",
+                "India",
+                "West Indies",
+                "South Africa"
             ]
         },
         {
             "question":"  Where is the headquarter of the ICC?",
-            "correct_answer":" Dubai",
+            "correct_answer":"Dubai",
             "incorrect_answers":[
-                "  London",
+                " London",
                 "Sydney",
-                " Cape town ",
-                "  Dubai"
+                "Cape town ",
+                " Dubai"
             ]
         },
         {
             "question":" When was ICC established?",
-            "correct_answer":" 1909",
+            "correct_answer":"1909",
             "incorrect_answers":[
                 "1960",
                 "1953",
@@ -53,18 +53,18 @@
         },
         {
             "question":" Which of the following international competition is not organized by the ICC? ",
-            "correct_answer":" Syed Mushtaq Ali Trophy",
+            "correct_answer":"Syed Mushtaq Ali Trophy",
             "incorrect_answers":[
-                " Champions Trophy",
+                "Champions Trophy",
                 "World Cricket League",
-                " Under-19 Cricket World Cup",
-                " Syed Mushtaq Ali Trophy"
+                "Under-19 Cricket World Cup",
+                "Syed Mushtaq Ali Trophy"
             ]
         },
         
         {
-            "question":" Who is the current Chairman of the ICC? ",
-            "correct_answer":" Shashank Manohar",
+            "question":"Who is the current Chairman of the ICC? ",
+            "correct_answer":"Shashank Manohar",
             "incorrect_answers":[
                 "David Richardson",
                 "Shashank Manohar",
@@ -74,20 +74,20 @@
         },
         {
             "question":" Who is chosen at the ICC men's cricketer of the year 2017? ",
-            "correct_answer":" Virat Kohli",
+            "correct_answer":"Virat Kohli",
             "incorrect_answers":[
                 "Steve Smith",
                 "Virat Kohli",
-                " K.L. Rahul",
+                "K.L. Rahul",
                 "Hasan Ali"
             ]
         },
         {
-            "question":"  Who of the following was the last President of the ICC?",
+            "question":"Who of the following was the last President of the ICC?",
             "correct_answer":"Zaheer Abbas",
             "incorrect_answers":[
-                " Mustafa Kamal",
-                " Sharad Pawar",
+                "Mustafa Kamal",
+                "Sharad Pawar",
                 "Zaheer Abbas",
                 "Alan Isaac"
             ]
@@ -106,9 +106,9 @@
             "question":" Which cricketer had scored highest individual score in first-class cricket? ",
             "correct_answer":"Brian Lara",
             "incorrect_answers":[
-                "Brian Lara ",
+                "Brian Lara",
                 " Don Bradman",
-                "Lane Hutton ",
+                "Lane Hutton",
                 " Gary Sobers"
             ]
         },
@@ -116,15 +116,15 @@
             "question":"Which cricketer had scored highest individual score in ODI cricket? ",
             "correct_answer":"Rohit Sharma",
             "incorrect_answers":[
-                " Chris Gayle",
-                " Virender Sehwag",
-                " Martin Guptill",
+                "Chris Gayle",
+                "Virender Sehwag",
+                "Martin Guptill",
                 "Rohit Sharma"
             ]
         },
         {
             "question":"Which cricketer had scored most centuries in first-class cricket? ",
-            "correct_answer":" Jack Hobbs",
+            "correct_answer":"Jack Hobbs",
             "incorrect_answers":[
                 "Sachin Tendulkar",
                 "Lane Hutton",
@@ -154,7 +154,7 @@
         },
         {
             "question":"Which cricketer had scored fastest century in Test cricket? ",
-            "correct_answer":"Brendon McCullum ",
+            "correct_answer":"Brendon McCullum",
             "incorrect_answers":[
                 "Misbah-ul-Haq",
                 "Brendon McCullum",
@@ -166,7 +166,7 @@
             "question":"Which cricketer had scored most runs in a Test match? ",
             "correct_answer":"Graham Gooch",
             "incorrect_answers":[
-                "Sunil Gavaskar ",
+                "Sunil Gavaskar",
                 "Graham Gooch",
                 "Brian Lara",
                 "Don Bradman"
@@ -204,7 +204,7 @@
         },
         {
             "question":" Which cricketer had scored highest individual score in Test cricket? ",
-            "correct_answer":"Brian Lara ",
+            "correct_answer":"Brian Lara",
             "incorrect_answers":[
                 "Sachin Tendulkar",
                 "Brian Lara",
@@ -214,7 +214,7 @@
         },
         {
             "question":"Which is first Indian cricket tournament ? ",
-            "correct_answer":"Bombay Triangular ",
+            "correct_answer":"Bombay Triangular",
             "incorrect_answers":[
                 "Pepsi Cup",
                 " Bombay Series",
@@ -237,7 +237,7 @@
             "correct_answer":"South Africa",
             "incorrect_answers":[
                 " South Africa",
-                "Pakistan ",
+                "Pakistan",
                 " England",
                 "Australia "
             ]
@@ -278,7 +278,7 @@
             "incorrect_answers":[
                 "1952 , Australia",
                 "1952 , England",
-                "1952 , Pakistan",
+                "1952,Pakistan",
                 "None of these"
             ]
         },
@@ -294,11 +294,11 @@
         },
         {
             "question":"Which of the following is first Indian bowler to take wicket ? ",
-            "correct_answer":" Mohammad Nissar",
+            "correct_answer":"Mohammad Nissar",
             "incorrect_answers":[
                 "Bapu Nadkarni",
                 "Imran Khan",
-                " Mohammad Nissar",
+                "Mohammad Nissar",
                 "Vyanktesh Prasad"
             ]
         },
@@ -309,7 +309,7 @@
                 "Lala Amarnath",
                 "Chetan Sharma",
                 "Polly Umrigar",
-                "Amar Sing"
+                "Amar Singh"
             ]
         },
         {
@@ -324,7 +324,7 @@
         },
         {
             "question":"Which of the following is first Cricketer to score a double century in test cricket ? ",
-            "correct_answer":"Polly Umrigar ",
+            "correct_answer":"Polly Umrigar",
             "incorrect_answers":[
                 "Lala Amarnath",
                 "Amar Singh",
@@ -334,7 +334,7 @@
         },
         {
             "question":"Which of the following is first Cricketer to score a triple century in test cricket ? ",
-            "correct_answer":"Virendra Sehwag ",
+            "correct_answer":"Virendra Sehwag",
             "incorrect_answers":[
                 "Virendra Sehwag",
                 "Polly Umrigar",
@@ -418,17 +418,17 @@
             "incorrect_answers":[
                 "Ricky Ponting",
                 "Sunil Gawaskar",
-                "Sachin Tendulkar ",
+                "Sachin Tendulkar",
                 "None of these "
             ]
         },
         {
             "question":"Who is first Indian Bowler to take all 10 wickets in an innings ? ",
-            "correct_answer":" Anil Kumble",
+            "correct_answer":"Anil Kumble",
             "incorrect_answers":[
-                "Chetan Sharma ",
-                "Anil Kumble ",
-                "Kapil Dev ",
+                "Chetan Sharma",
+                "Anil Kumble",
+                "Kapil Dev",
                 "Bapu Nakarni "
             ]
         },
@@ -449,7 +449,7 @@
                 "Sunil Gavaskar ",
                 "Saurav Ganguli",
                 "Sachin Tendulkar",
-                "Vijay Hajare"
+                "Vijay Hazare"
             ]
         },
         {
@@ -459,7 +459,7 @@
                 "Sunil Gavaskar",
                 "Saurav Ganguli",
                 "Sachin Tendulkar",
-                "Vijay Hajare "
+                "Vijay Hazare"
             ]
         },
         {
@@ -469,7 +469,7 @@
                 "Sunil Gavaskar",
                 "Saurav Ganguli",
                 "Ravi Shastri ",
-                "Vijay Hajare "
+                "Vijay Hajare"
             ]
         },
         {

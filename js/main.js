@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     close.addEventListener('click',()=>{
         quesSec.classList.toggle('showQuesSec');
         CorrectAns.innerHTML='';
+        location='index.html';
     })
     
 
@@ -193,7 +194,7 @@ document.addEventListener('DOMContentLoaded',()=>{
                 }
                 else if(c<50 && category=='Cricket'){
                         var q=fetchCricket(count);
-                        dispalyQuesSection("Animals",q,count,c);
+                        dispalyQuesSection("Cricket",q,count,c);
                         checkAnswer(q)
                         DisabledOptions();
                         console.log(category)
