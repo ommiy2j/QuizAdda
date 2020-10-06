@@ -223,11 +223,11 @@
             ]
         },
         {
-            "question":"Indian played their First ODI Match against _______. ",
+            "question":"Indian played their First ODI Match against _______.",
             "correct_answer":"England",
             "incorrect_answers":[
                 "Pakistan",
-                " England",
+                "England",
                 "Australia",
                 "South Africa"
             ]
@@ -236,9 +236,9 @@
             "question":"Indian played their First T20 Match against _______. ",
             "correct_answer":"South Africa",
             "incorrect_answers":[
-                " South Africa",
+                "South Africa",
                 "Pakistan",
-                " England",
+                "England",
                 "Australia "
             ]
         },
@@ -499,7 +499,7 @@
             "incorrect_answers":[
                 "R Ashwin",
                 "Ramesh Powar",
-                "Nilesh Kulkarn",
+                "Nilesh Kulkarni",
                 "Vyankatesh Prasad"
             ]
         }
