@@ -432,11 +432,11 @@ label{
         height: 90%;
     }
     .sideNAv1 ul li {
-        font-size: 1.45rem;
+        font-size: 1.4rem;
         transform: scale(0.9);
     }
     .heading {
-        font-size: 2.3rem;
+        font-size: 2.2rem;
     }
     .quesSec{
         min-height: 700px;
@@ -455,7 +455,11 @@ label{
         letter-spacing: 3px;
     }
     .lead p {
+<<<<<<< HEAD
         font-size: 1rem;
+=======
+        font-size: 1.1rem;
+>>>>>>> 665ffd838bdd78533a74f688b8f35da45f76f0b2
         font-weight: 700;
         margin-left: 10px;
     }
@@ -468,8 +472,13 @@ label{
         justify-content: center;
         align-items: center;
         width: 100%;
+<<<<<<< HEAD
         font-size: 0.7rem;
         padding: 0 10px;
+=======
+        font-size: 0.8rem;
+        padding: 0;
+>>>>>>> 665ffd838bdd78533a74f688b8f35da45f76f0b2
         font-weight: 500;
     
     }
