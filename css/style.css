@@ -455,7 +455,7 @@ label{
         letter-spacing: 3px;
     }
     .lead p {
-        font-size: 1.25rem;
+        font-size: 1rem;
         font-weight: 700;
         margin-left: 10px;
     }
@@ -468,8 +468,8 @@ label{
         justify-content: center;
         align-items: center;
         width: 100%;
-        font-size: 1rem;
-        padding: 0;
+        font-size: 0.7rem;
+        padding: 0 10px;
         font-weight: 500;
     
     }
